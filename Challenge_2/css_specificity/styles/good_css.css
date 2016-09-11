@@ -1,0 +1,18 @@
+h1 {
+    font-size: 48px;
+}
+
+li {
+    color: darkgrey;
+    font-size: 32px;
+}
+
+#blue-strike {
+    color: navy;
+    text-decoration: line-through;
+}
+
+.strong-strike {
+    font-weight: bold;
+    text-decoration: line-through;
+}

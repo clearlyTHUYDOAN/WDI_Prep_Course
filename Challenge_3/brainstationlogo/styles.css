@@ -1,0 +1,16 @@
+div {
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.one {
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+.two {
+    border: 10px solid lightgrey;
+}

@@ -1,0 +1,12 @@
+div {
+   margin: 30px;
+    height: 100px;
+    width: 205px;
+    padding: 10px 20px;
+    border: 2px dotted;
+    background-color:darkgrey; 
+}
+
+.white {
+    color: white;
+}
