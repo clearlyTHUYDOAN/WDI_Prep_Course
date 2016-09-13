@@ -1,17 +1,17 @@
-//Exercise 1
+//Exercise 1 - complete
 
 for (var i = 1; i <= 100; i++) {
     console.log(i);
 }
 
-//Exercise 2
+//Exercise 2 - incomplete
 
 for (var i = 1; i <= 7; i++) {
     
     console.log();
 }
 
-//Exercise 3
+//Exercise 3 - complete
 
 for (var i = 1; i <= 100; i++) {
         if (i % 5 === 0) {
@@ -25,5 +25,5 @@ for (var i = 1; i <= 100; i++) {
     }
 }
 
-//Exercise 4
+//Exercise 4 - incomplete
 
