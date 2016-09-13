@@ -32,7 +32,7 @@ console.log(answer2);
 
 //Exercise 6
 
-String(12);
+String(12)
 parseInt("113")
 parseFloat(1.12356)
 x = parseInt("Hello World")
