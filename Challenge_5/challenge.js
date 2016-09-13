@@ -14,14 +14,14 @@ console.log(answer);
 var a = true;
 var b = false;
 var c = true;
-console.log(a || b || c)
+console.log(a || b || c);
 
 //Exercise 4
 
 var a = true;
 var b = false;
 var c = true;
-console.log(a && b && c)
+console.log(a && b && c);
 
 //Exercise 5
 
