@@ -13,7 +13,7 @@ console.log(answer);
 
 var a = true;
 var b = false;
-var c = true;
+var c = true
 console.log(a || b || c);
 
 //Exercise 4
