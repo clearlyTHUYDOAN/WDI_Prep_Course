@@ -11,9 +11,19 @@ Using the loop provided for you below, use an array's push method to insert the 
 */
 
 for(var i=0;i<10;i++){
-    //use the array push() method here.
+    //Why is this being put into a for loop?
+    numbers[0] = "0";
+    numbers[1] = "1";
+    numbers[2] = "2";
+    numbers[3] = "3";
+    numbers[4] = "4";
+    numbers[5] = "5";
+    numbers[6] = "6";
+    numbers[7] = "7";
+    numbers[8] = "8";
+    numbers[9] = "9";
+    numbers[10] = "10";
 }
-
 
 /*
 Exercise #3
