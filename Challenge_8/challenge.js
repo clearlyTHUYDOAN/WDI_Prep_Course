@@ -4,11 +4,13 @@ for (var i = 1; i <= 100; i++) {
     console.log(i);
 }
 
-//Exercise 2 - incomplete
+//Exercise 2 - sol'n from internet - attempting to understand
+
+var content = " ";
 
 for (var i = 1; i <= 7; i++) {
-    
-    console.log();
+    content = content + "#";
+    console.log(content);
 }
 
 //Exercise 3 - complete
@@ -26,4 +28,11 @@ for (var i = 1; i <= 100; i++) {
 }
 
 //Exercise 4 - incomplete
+
+var size = 8;
+var block = "#";
+var space = "";
+
+for (var i =1; i <= size; i++) {
+    var line = " ";
 
