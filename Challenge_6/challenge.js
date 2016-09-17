@@ -10,8 +10,7 @@ Exercise #2 - complete
 Using the loop provided for you below, use an array's push method to insert the nummbers  0 to 10 into positions 0 through 10 of the numbers array you just initialized above.'If you're not sure how to use the array push method go back and re read this module on data strucutres.'
 */
 
-for(var i=0;i<10;i++){
-    //Why is this being put into a for loop?
+
     numbers[0] = "0";
     numbers[1] = "1";
     numbers[2] = "2";
@@ -23,7 +22,7 @@ for(var i=0;i<10;i++){
     numbers[8] = "8";
     numbers[9] = "9";
     numbers[10] = "10";
-}
+
 
 /*
 Exercise #3 - complete, debug works in VSC but can't run
@@ -60,3 +59,9 @@ var car = {};
 Exercise #5
 Give the car object a property called "colour" and assign it the value of "black". Test that your code works correctly by outputing property make to the console. You should see the value "black" printed out.
 */
+
+var car = {
+    colour: "black"
+}
+
+console.log(car.black);
