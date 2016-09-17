@@ -54,7 +54,7 @@ console.log(sum);
 Exercise #5
 Create an empty object and assign it the variable car below.
 */
-var car;
+var car = {};
 
 /*
 Exercise #5
