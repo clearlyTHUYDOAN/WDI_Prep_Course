@@ -2,10 +2,21 @@ div {
     height: 150px;
     width: 150px;
     background-color: red;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
 
 .row-one {
     display: inline-block;
+    position: relative;
+}
+
+.row-two {
+    display: inline-block;
+    position: relative;
+}
+
+.row-three {
+    display: inline-block;
+    position: relative;
 }
