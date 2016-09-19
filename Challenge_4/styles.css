@@ -2,18 +2,5 @@ div {
     height: 150px;
     width: 150px;
     background-color: red;
-    margin-right: 20px;
-    margin-bottom: 20px; 
 }
 
-.row-one {
-    display: inline-block;
-}
-
-.row-two {
-    float: left;
-}
-
-.row-three {
-    position: relative; 
-}
