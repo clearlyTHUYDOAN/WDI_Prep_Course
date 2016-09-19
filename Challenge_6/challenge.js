@@ -47,7 +47,7 @@ By the end of the while loop, we will have calculated the sum of the array.
 var sum = 0;
 
 while(numbers.length != 0){
-    var lastElement = numbers.pop;
+    var lastElement = numbers.pop();
     sum += lastElement;
 }
 
