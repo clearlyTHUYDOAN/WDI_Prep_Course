@@ -6,21 +6,13 @@ var numbers = [];
 
 
 /*
-Exercise #2 - (complete, didn't understand the purpose of the for loop)
+Exercise #2 - complete
 Using the loop provided for you below, use an array's push method to insert the nummbers  0 to 10 into positions 0 through 10 of the numbers array you just initialized above.'If you're not sure how to use the array push method go back and re read this module on data strucutres.'
 */
 
-    numbers[0] = "0";
-    numbers[1] = "1";
-    numbers[2] = "2";
-    numbers[3] = "3";
-    numbers[4] = "4";
-    numbers[5] = "5";
-    numbers[6] = "6";
-    numbers[7] = "7";
-    numbers[8] = "8";
-    numbers[9] = "9";
-    numbers[10] = "10";
+for(var i=0;i<10;i++){
+    numbers.push(i);
+}
 
 
 /*
@@ -39,11 +31,11 @@ Use the console.log() function and the array .pop() to add all the values in the
 */
 
 var sum = 0;
-/* remove this line to uncomment the code block
+
 while(numbers.length != 0){
     //write pop function here
 }
-remove this line to uncomment the code block */
+
 console.log(sum);
 
 
