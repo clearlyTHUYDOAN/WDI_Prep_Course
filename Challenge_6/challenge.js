@@ -34,7 +34,7 @@ var sum = 0;
 
 while(numbers.length != 0){
     var lastElement = numbers.pop;
-    sum = sum + lastElement;
+    sum += lastElement;
 }
 
 console.log(sum);
