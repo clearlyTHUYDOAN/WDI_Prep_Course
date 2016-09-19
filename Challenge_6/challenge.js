@@ -26,14 +26,15 @@ console.log(sum)
 
 
 /*
-Exercise #4 - incomplete
+Exercise #4 - complete, check
 Use the console.log() function and the array .pop() to add all the values in the array.
 */
 
 var sum = 0;
 
 while(numbers.length != 0){
-    numbers.pop(i);
+    var lastElement = numbers.pop;
+    sum = sum + lastElement;
 }
 
 console.log(sum);
