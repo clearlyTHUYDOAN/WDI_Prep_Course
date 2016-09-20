@@ -6,6 +6,10 @@
     margin-bottom: 10px;
 }
 
+/*
+This makes the three boxes in this row stack up on top of each other. How to get the boxes in row div containers to stay on the row?
+*/
+
 #first-row {
     height: 160px;
     width: 480px;
