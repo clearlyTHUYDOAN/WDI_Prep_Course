@@ -1,7 +1,13 @@
-div {
+.cell {
     width: 150px;
     height: 150px;
     background-color: red;
     margin-right: 10px;
     margin-bottom: 10px;
+}
+
+#first-row {
+    height: 160px;
+    width: 480px;
+    display: block;
 }
