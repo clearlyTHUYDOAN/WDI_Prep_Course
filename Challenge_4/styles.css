@@ -6,8 +6,8 @@ div {
     height: 150px;
     width: 150px;
     background-color: red;
-    margin-right: 5px;
-    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .row-one {
@@ -20,11 +20,8 @@ Only float options are clear, left, right?
 */
 
 .row-two {
-    display: inline-block;
-    position: relative;
 }
 
 .row-three {
-    display: inline-block;
-    position: relative;
+    position: absolute;
 }
