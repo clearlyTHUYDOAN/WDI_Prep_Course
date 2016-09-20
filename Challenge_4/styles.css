@@ -6,6 +6,8 @@
     margin-bottom: 5px;
 }
 
+/* Essential for divs within to show up.
+*/
 #first-container {
     height: 155px;
     width: 480px;
