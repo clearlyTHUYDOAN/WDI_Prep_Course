@@ -1,23 +1,7 @@
-.cell {
-    height: 150px;
+div {
     width: 150px;
+    height: 150px;
     background-color: red;
     margin-right: 10px;
     margin-bottom: 10px;
-}
-
-.first-row {
-    display: inline;
-}
-
-.clearfix {
-    display: block;
-}
-
-#left {
-    float: left;
-}
-
-.third-row {
-    position: absolute;
 }
