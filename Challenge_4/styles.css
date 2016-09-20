@@ -11,6 +11,8 @@
     width: 480px;
 }
 
+/* Without this, squares in the first row stack in the same spot.
+*/
 .row-one {
     display: inline-block;
 }
