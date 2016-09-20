@@ -69,4 +69,4 @@ var car = {
     colour: "black"
 }
 
-console.log(car.black);
+console.log(car.colour);
