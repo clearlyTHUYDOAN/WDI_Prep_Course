@@ -2,7 +2,7 @@
 Margins of 20px made the spaces too large?
 */
 
-div {
+.cell {
     height: 150px;
     width: 150px;
     background-color: red;
@@ -10,18 +10,14 @@ div {
     margin-bottom: 10px;
 }
 
-.row-one {
-    display: inline-block;
-    position: relative;
+.first-row {
+    display: inline;
 }
 
-/*
-Only float options are clear, left, right?
-*/
-
-.row-two {
+.second-row {
+    
 }
 
-.row-three {
+.third-row {
     position: absolute;
 }
