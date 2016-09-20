@@ -4,7 +4,13 @@ for (var i = 1; i <= 100; i++) {
     console.log(i);
 }
 
-//Exercise 2 - sol'n from internet - attempting to understand
+//Exercise 2 - complete
+
+/*
+You start with nothing. var content = " ";
+Each time the loop runs, you want to add one more # than the previous line.
+Loops runs 7 times so the last line ends up having 7 #'s.
+*/
 
 var content = " ";
 
@@ -27,7 +33,7 @@ for (var i = 1; i <= 100; i++) {
     }
 }
 
-//Exercise 4 - sol'n from internet - don't understand
+//Exercise 4 - sol'n from internet 
 
 var size = 8;
 var block = "#";
