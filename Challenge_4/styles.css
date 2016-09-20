@@ -1,7 +1,3 @@
-/*
-Margins of 20px made the spaces too large?
-*/
-
 .cell {
     height: 150px;
     width: 150px;
@@ -14,8 +10,12 @@ Margins of 20px made the spaces too large?
     display: inline;
 }
 
-.second-row {
-    
+.clearfix {
+    display: block;
+}
+
+#left {
+    float: left;
 }
 
 .third-row {
