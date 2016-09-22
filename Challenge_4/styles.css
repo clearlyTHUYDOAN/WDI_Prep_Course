@@ -6,7 +6,7 @@
     margin-bottom: 5px;
 }
 
-/* Margins are not being achieved. Additional space is coming from somewhere based on the margins working below. */
+/* Margins are not being achieved. Additional space (of 10px total) is coming from somewhere based on the margins working below. */
 
 #first-container {
     height: 155px; /* height of the square + margin */
