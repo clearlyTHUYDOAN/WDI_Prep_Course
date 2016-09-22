@@ -36,4 +36,21 @@
     width: 475px;
 }
 
+.p-one {
+    position: relative;
+    top: 155px;
+}
+
+.p-two {
+    position: relative;
+    left: 155px;
+}
+
+/* Both p-one and p-two are positioned relative to where it should have been in the div box which is the first square space. */
+
+.p-three {
+    position: relative;
+    left: 155px; /* This tells me this box is for some reason supposed to be positioned first on the fourth row? */
+}
+
 /* Containers used to keep squares on each line as opposed to using <br> after each set of 3 divs*/
