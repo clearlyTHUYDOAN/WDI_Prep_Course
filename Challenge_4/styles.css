@@ -19,9 +19,12 @@
     display: inline-block;
 }
 
-.second-container {
-    height: 155px;
-    width: 475px;
+.clearfix {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
 }
 
 .float-left {
