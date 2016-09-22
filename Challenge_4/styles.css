@@ -6,11 +6,11 @@
     margin-bottom: 5px;
 }
 
-/* Essential for divs within to show up.
-*/
+/* asd */
+
 #first-container {
-    height: 155px;
-    width: 475px;
+    height: 155px; /* height of the square + margin */
+    width: 475px; /* Should be 465 but that width didn't let the third square show. Not sure why. */
 }
 
 /* Without this, squares in the first row stack in the same spot.
@@ -27,13 +27,17 @@
     clear: both;
 }
 
+/* The effect of clearfix class could also be achieved by adding a div underneath the three divs with class "clear" and property "clear: both". Less code. */
+
 .float-left {
     float: left;
 }
 
+/* Makes squares in the line float left in the order they appear within the container. */
+
 .third-container {
     height: 155px;
-    width: 475px;
+    width: 465px; /* 465 works here. */
 }
 
 .p-one {
@@ -42,17 +46,17 @@
 }
 
 .p-two {
+    position: relative;
+    left: 155px; 
+}
+
+.p-three {
     position: absolute;
-    left: 318px;
+    left: 318px; /* This tells me this box is for some reason supposed to be positioned first on the fourth row? */
 }
 
 /* Both p-one and p-two are positioned relative to where it should have been in the div box which is the first square space. */
 
 /*p-three with absolute positioning, is being positioned relative to its nearest parent's position (first square in line based on trial and error). If there was no parent, it would be positioned relative to the document. */
-
-.p-three {
-    position: relative;
-    left: 155px; /* This tells me this box is for some reason supposed to be positioned first on the fourth row? */
-}
 
 /* Containers used to keep squares on each line as opposed to using <br> after each set of 3 divs*/
