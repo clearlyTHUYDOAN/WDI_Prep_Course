@@ -19,3 +19,21 @@
     display: inline-block;
 }
 
+.second-container {
+    height: 155px;
+    width: 475px;
+}
+
+.float-left {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.third-container {
+    height: 155px;
+    width: 475px;
+}
+
