@@ -10,7 +10,7 @@
 */
 #first-container {
     height: 155px;
-    width: 480px;
+    width: 475px;
 }
 
 /* Without this, squares in the first row stack in the same spot.
