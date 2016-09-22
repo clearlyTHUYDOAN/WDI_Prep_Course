@@ -42,11 +42,13 @@
 }
 
 .p-two {
-    position: relative;
-    left: 155px;
+    position: absolute;
+    left: 318px;
 }
 
 /* Both p-one and p-two are positioned relative to where it should have been in the div box which is the first square space. */
+
+/*p-three with absolute positioning, is being positioned relative to its nearest parent's position (first square in line based on trial and error). If there was no parent, it would be positioned relative to the document. */
 
 .p-three {
     position: relative;
