@@ -50,13 +50,11 @@
     left: 155px; 
 }
 
-.p-three {
-    position: absolute;
-    left: 318px; /* This tells me this box is for some reason supposed to be positioned first on the fourth row? */
-}
-
 /* Both p-one and p-two are positioned relative to where it should have been in the div box which is the first square space. */
 
-/*p-three with absolute positioning, is being positioned relative to its nearest parent's position (first square in line based on trial and error). If there was no parent, it would be positioned relative to the document. */
+.p-three {
+    position: absolute;
+    left: 318px; /* This tells me this box is for some reason supposed to be positioned first on the fourth row? What is pushing it down? */
+}
 
 /* Containers used to keep squares on each line as opposed to using <br> after each set of 3 divs*/
