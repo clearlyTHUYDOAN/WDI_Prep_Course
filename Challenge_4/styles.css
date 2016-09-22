@@ -54,7 +54,8 @@ and property "clear: both". Less code. */
 
 .p-three {
     position: absolute;
-    left: 318px; /* This tells me this box is for some reason supposed to be positioned first on the fourth row? What is pushing it down? */
+    left: 318px; /* This tells me this box is for some reason supposed to be positioned first on the fourth row? What is 
+    pushing it down? */
 }
 
 /* Containers used to keep squares on each line as opposed to using <br> after each set of 3 divs*/
