@@ -29,37 +29,47 @@ div
 
 /* FIRST ROW : FLOATS; */
 .a1 {
+	float: right;
 }
 
 .b1 {
+	
 }
 
 .c1 {
+	
 }
 
 .d1 {
+	float: left;
 }
 
 /* SECOND ROW : DISPLAY */
 
 .a2 {
+	display: inline-block;
 }
 
 .b2 {
+	display: none;
 }
 
 .c2 {
+	display: inline;
 }
 
 .d2 {
+	display: block;
 }
 
 /* THIRD ROW : POSITION */
 
 .a3 {
+	top: 0;
 }
 
 .b3 {
+	position: relative;
 }
 
 .c3 {
