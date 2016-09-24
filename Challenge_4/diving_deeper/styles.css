@@ -33,11 +33,11 @@ div
 }
 
 .b1 {
-	
+	clear: left;
 }
 
 .c1 {
-	
+	float: right;
 }
 
 .d1 {
