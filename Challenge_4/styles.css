@@ -11,6 +11,7 @@
 #first-container {
     height: 155px; /* height of the square + margin */
     width: 475px; /* Should be 465 but that width didn't let the third square show. Not sure why. */
+    font-size: 0;
 }
 
 /* Without this, squares in the first row stack in the same spot. */
