@@ -20,11 +20,7 @@
 }
 
 .clearfix {
-    content: " ";
-    visibility: hidden;
-    display: block;
-    height: 0;
-    clear: both;
+    overflow: auto;
 }
 
 /* The effect of clearfix class could also be achieved by adding a div underneath the three divs with class "clear" 
