@@ -11,3 +11,7 @@ for (i = 1; i <= 100; i++) {
         console.log(i);
     }
 }
+
+// test git
+
+console.log("test git");
